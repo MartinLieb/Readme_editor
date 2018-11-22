@@ -1,7 +1,2 @@
 # Readme fil
-
-hej
-
-ven
-
-hva så
+hej med dig ven

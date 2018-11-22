@@ -8,13 +8,13 @@ public class Readme {
     public static void main(String[] args) {
 
         String filensIndhold;
-        filensIndhold = readme();
+        filensIndhold = readFile();
 
         System.out.println("README INDEHOLDER: \n" + filensIndhold);
 
     }
 
-        public static String readme() {
+        public static String readFile() {
 
             String readmeTxt = "";
 
@@ -23,7 +23,7 @@ public class Readme {
             if (readme.exists()) {
                 System.out.println("Readme findes.");
             } else {
-                System.out.println("readme findes ikke.");
+                System.out.println("readFile findes ikke.");
 
                 try {
                     PrintWriter filSkriver = new PrintWriter(readme);
@@ -32,14 +32,14 @@ public class Readme {
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
-            };
+            }
 
             try {
                 Scanner in = new Scanner(readme);
 
                 while(in.hasNext()){
                     String newLine = in.nextLine();
-                    System.out.println(newLine);
+                    // System.out.println(newLine);
 
                     readmeTxt = readmeTxt + newLine + "\n";
 
