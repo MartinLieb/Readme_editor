@@ -17,9 +17,9 @@ public class Controller{
     Button writeButton;
 
 
-    // public void ReadFile(ActionEvent actionEvent) {
-    //    Readme x = new Readme();
+    public void ReadFile(ActionEvent actionEvent) {
 
-    //    textArea.setText(x.readme());
+        textArea.setText("hej");
+
     }
-//}
+}

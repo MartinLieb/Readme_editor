@@ -51,5 +51,10 @@ public class Readme {
             return readmeTxt;
         }
 
+        public static void writeFile(String indhold) {
+
+
+        }
+
     }
 
