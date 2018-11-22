@@ -2,13 +2,14 @@ package sample;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
 
-import java.awt.*;
 
 public class Controller{
 
     @FXML
-    TextArea textArea;
+    TextArea john;
 
     @FXML
     Button readButton;
@@ -19,7 +20,9 @@ public class Controller{
 
     public void ReadFile(ActionEvent actionEvent) {
 
-        textArea.setText("hej");
+
+
+        john.setText("hej");
 
     }
 }
